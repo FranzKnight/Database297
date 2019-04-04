@@ -60,12 +60,6 @@ namespace CollegeRegistration
             RegistrationEntities.SaveChanges();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            var sectionsForm = new Sections();
-            sectionsForm.Show();
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             Major DeleteRecord = new Major();
@@ -97,6 +91,24 @@ namespace CollegeRegistration
             dataGridView1.DataSource = majorBindingSource;
             dataGridView1.Update();
             dataGridView1.Refresh();
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            var newForm1 = new EnrollmentForm();
+            newForm1.Show();
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            var newForm2 = new CourseForm();
+            newForm2.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            var newForm3 = new SectionForm();
+            newForm3.Show();
         }
     }
 }
