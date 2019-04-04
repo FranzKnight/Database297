@@ -1,0 +1,71 @@
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\bin\Debug\CollegeRegistration.exe.config
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\bin\Debug\CollegeRegistration.exe
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\bin\Debug\CollegeRegistration.pdb
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\bin\Debug\EntityFramework.dll
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.dll
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\bin\Debug\EntityFramework.xml
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.xml
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.Form1.resources
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.Properties.Resources.resources
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.GenerateResource.Cache
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CoreCompileInputs.cache
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.exe
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.pdb
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.StudentAddForm.resources
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.CourseAddForm.resources
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.EnrollmentAddForm.resources
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.FacultyAddForm.resources
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.MajorAddForm.resources
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.SectionAddForm.resources
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\CollegeRegistration\obj\Debug\CollegeRegistration.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\bin\Debug\CollegeRegistration.exe.config
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\bin\Debug\CollegeRegistration.exe
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\bin\Debug\CollegeRegistration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.csprojAssemblyReference.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.CourseAddForm.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.EnrollmentAddForm.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.FacultyAddForm.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.Form1.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.MajorAddForm.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.Properties.Resources.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.SectionAddForm.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.StudentAddForm.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.GenerateResource.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CopyComplete
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.exe
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\CollegeRegistration\obj\Debug\CollegeRegistration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\bin\Debug\CollegeRegistration.exe.config
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\bin\Debug\CollegeRegistration.exe
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\bin\Debug\CollegeRegistration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\obj\Debug\CollegeRegistration.csprojAssemblyReference.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\obj\Debug\CollegeRegistration.Form1.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\obj\Debug\CollegeRegistration.Properties.Resources.resources
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.GenerateResource.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CopyComplete
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\obj\Debug\CollegeRegistration.exe
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\CollegeRegistration\obj\Debug\CollegeRegistration.pdb
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\bin\Debug\CollegeRegistration.exe.config
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\bin\Debug\CollegeRegistration.exe
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\bin\Debug\CollegeRegistration.pdb
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\obj\Debug\CollegeRegistration.csprojAssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\obj\Debug\CollegeRegistration.Form1.resources
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\obj\Debug\CollegeRegistration.Properties.Resources.resources
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.GenerateResource.cache
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\obj\Debug\CollegeRegistration.csproj.CopyComplete
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\obj\Debug\CollegeRegistration.exe
+C:\Users\Owner\Documents\GitHub\Database297\CollegeRegistration\obj\Debug\CollegeRegistration.pdb

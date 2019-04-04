@@ -1,0 +1,33 @@
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\Registration\bin\Debug\Registration.dacpac
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\Registration\bin\Debug\Registration.dll
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\Registration\bin\Debug\Registration.pdb
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\Registration\obj\Debug\Registration.dll
+X:\GITBUB\CIS297-RegistrationDatabase\CIS297-RegistrationDatabase\CollegeRegistration\Registration\obj\Debug\Registration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\bin\Debug\Registration.dacpac
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\bin\Debug\Registration.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\bin\Debug\Registration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\obj\Debug\Registration.sqlprojAssemblyReference.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\obj\Debug\Model.xml
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\obj\Debug\refactor.xml
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\obj\Debug\postdeploy.sql
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\obj\Debug\predeploy.sql
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\obj\Debug\Registration.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistrationTAGORE\Registration\obj\Debug\Registration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistration\Registration\bin\Debug\Registration.dacpac
+C:\Users\Owner\Documents\Shit\CollegeRegistration\Registration\bin\Debug\Registration.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistration\Registration\bin\Debug\Registration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistration\Registration\obj\Debug\Registration.sqlprojAssemblyReference.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistration\Registration\obj\Debug\Registration.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistration\Registration\obj\Debug\Registration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\Registration\bin\Debug\Registration.dacpac
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\Registration\bin\Debug\Registration.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\Registration\bin\Debug\Registration.pdb
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\Registration\obj\Debug\Registration.sqlprojAssemblyReference.cache
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\Registration\obj\Debug\Registration.dll
+C:\Users\Owner\Documents\Shit\CollegeRegistration - Copy\Registration\obj\Debug\Registration.pdb
+C:\Users\Owner\Documents\GitHub\Database297\Registration\bin\Debug\Registration.dacpac
+C:\Users\Owner\Documents\GitHub\Database297\Registration\bin\Debug\Registration.dll
+C:\Users\Owner\Documents\GitHub\Database297\Registration\bin\Debug\Registration.pdb
+C:\Users\Owner\Documents\GitHub\Database297\Registration\obj\Debug\Registration.sqlprojAssemblyReference.cache
+C:\Users\Owner\Documents\GitHub\Database297\Registration\obj\Debug\Registration.dll
+C:\Users\Owner\Documents\GitHub\Database297\Registration\obj\Debug\Registration.pdb
