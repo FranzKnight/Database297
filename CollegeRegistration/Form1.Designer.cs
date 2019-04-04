@@ -38,23 +38,27 @@
             this.button2 = new System.Windows.Forms.Button();
             this.deleteMajorButton = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.registrationDataSet = new CollegeRegistration.RegistrationDataSet();
-            this.majorBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.majorTableAdapter = new CollegeRegistration.RegistrationDataSetTableAdapters.MajorTableAdapter();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.collegeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.majorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.registrationDataSet = new CollegeRegistration.RegistrationDataSet();
+            this.majorTableAdapter = new CollegeRegistration.RegistrationDataSetTableAdapters.MajorTableAdapter();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.studentTableAdapter = new CollegeRegistration.RegistrationDataSetTableAdapters.StudentTableAdapter();
             this.idDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.majorIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.studentBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.studentTableAdapter = new CollegeRegistration.RegistrationDataSetTableAdapters.StudentTableAdapter();
             this.label3 = new System.Windows.Forms.Label();
             this.majorIDEntry = new System.Windows.Forms.TextBox();
+            this.deleteStudentButton = new System.Windows.Forms.Button();
+            this.reloadButton = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.collegeNameEntry = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.registrationDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.majorBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.registrationDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -69,10 +73,10 @@
             // 
             // addStudentButton
             // 
-            this.addStudentButton.Location = new System.Drawing.Point(321, 56);
+            this.addStudentButton.Location = new System.Drawing.Point(321, 23);
             this.addStudentButton.Margin = new System.Windows.Forms.Padding(2);
             this.addStudentButton.Name = "addStudentButton";
-            this.addStudentButton.Size = new System.Drawing.Size(137, 22);
+            this.addStudentButton.Size = new System.Drawing.Size(137, 39);
             this.addStudentButton.TabIndex = 1;
             this.addStudentButton.Text = "Add Student";
             this.addStudentButton.UseVisualStyleBackColor = true;
@@ -100,10 +104,10 @@
             // 
             // addMajorButton
             // 
-            this.addMajorButton.Location = new System.Drawing.Point(757, 25);
+            this.addMajorButton.Location = new System.Drawing.Point(771, 25);
             this.addMajorButton.Margin = new System.Windows.Forms.Padding(2);
             this.addMajorButton.Name = "addMajorButton";
-            this.addMajorButton.Size = new System.Drawing.Size(137, 22);
+            this.addMajorButton.Size = new System.Drawing.Size(137, 37);
             this.addMajorButton.TabIndex = 5;
             this.addMajorButton.Text = "Add Major";
             this.addMajorButton.UseVisualStyleBackColor = true;
@@ -111,7 +115,7 @@
             // 
             // majorNameEntry
             // 
-            this.majorNameEntry.Location = new System.Drawing.Point(567, 25);
+            this.majorNameEntry.Location = new System.Drawing.Point(579, 25);
             this.majorNameEntry.Margin = new System.Windows.Forms.Padding(2);
             this.majorNameEntry.Name = "majorNameEntry";
             this.majorNameEntry.Size = new System.Drawing.Size(186, 22);
@@ -119,7 +123,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1059, 25);
+            this.button2.Location = new System.Drawing.Point(925, 25);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(153, 85);
@@ -130,10 +134,10 @@
             // 
             // deleteMajorButton
             // 
-            this.deleteMajorButton.Location = new System.Drawing.Point(898, 25);
+            this.deleteMajorButton.Location = new System.Drawing.Point(771, 66);
             this.deleteMajorButton.Margin = new System.Windows.Forms.Padding(2);
             this.deleteMajorButton.Name = "deleteMajorButton";
-            this.deleteMajorButton.Size = new System.Drawing.Size(137, 22);
+            this.deleteMajorButton.Size = new System.Drawing.Size(137, 37);
             this.deleteMajorButton.TabIndex = 10;
             this.deleteMajorButton.Text = "Delete Major";
             this.deleteMajorButton.UseVisualStyleBackColor = true;
@@ -148,25 +152,11 @@
             this.nameDataGridViewTextBoxColumn,
             this.collegeDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.majorBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(482, 92);
+            this.dataGridView1.Location = new System.Drawing.Point(482, 116);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(426, 211);
             this.dataGridView1.TabIndex = 12;
-            // 
-            // registrationDataSet
-            // 
-            this.registrationDataSet.DataSetName = "RegistrationDataSet";
-            this.registrationDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // majorBindingSource
-            // 
-            this.majorBindingSource.DataMember = "Major";
-            this.majorBindingSource.DataSource = this.registrationDataSet;
-            // 
-            // majorTableAdapter
-            // 
-            this.majorTableAdapter.ClearBeforeFill = true;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -187,6 +177,20 @@
             this.collegeDataGridViewTextBoxColumn.HeaderText = "College";
             this.collegeDataGridViewTextBoxColumn.Name = "collegeDataGridViewTextBoxColumn";
             // 
+            // majorBindingSource
+            // 
+            this.majorBindingSource.DataMember = "Major";
+            this.majorBindingSource.DataSource = this.registrationDataSet;
+            // 
+            // registrationDataSet
+            // 
+            this.registrationDataSet.DataSetName = "RegistrationDataSet";
+            this.registrationDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // majorTableAdapter
+            // 
+            this.majorTableAdapter.ClearBeforeFill = true;
+            // 
             // dataGridView2
             // 
             this.dataGridView2.AutoGenerateColumns = false;
@@ -196,20 +200,11 @@
             this.nameDataGridViewTextBoxColumn1,
             this.majorIDDataGridViewTextBoxColumn});
             this.dataGridView2.DataSource = this.studentBindingSource;
-            this.dataGridView2.Location = new System.Drawing.Point(32, 92);
+            this.dataGridView2.Location = new System.Drawing.Point(32, 116);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.Size = new System.Drawing.Size(426, 211);
             this.dataGridView2.TabIndex = 13;
-            // 
-            // studentBindingSource
-            // 
-            this.studentBindingSource.DataMember = "Student";
-            this.studentBindingSource.DataSource = this.registrationDataSet;
-            // 
-            // studentTableAdapter
-            // 
-            this.studentTableAdapter.ClearBeforeFill = true;
             // 
             // idDataGridViewTextBoxColumn1
             // 
@@ -230,10 +225,19 @@
             this.majorIDDataGridViewTextBoxColumn.HeaderText = "MajorID";
             this.majorIDDataGridViewTextBoxColumn.Name = "majorIDDataGridViewTextBoxColumn";
             // 
+            // studentBindingSource
+            // 
+            this.studentBindingSource.DataMember = "Student";
+            this.studentBindingSource.DataSource = this.registrationDataSet;
+            // 
+            // studentTableAdapter
+            // 
+            this.studentTableAdapter.ClearBeforeFill = true;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 59);
+            this.label3.Location = new System.Drawing.Point(29, 69);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 17);
@@ -242,26 +246,69 @@
             // 
             // majorIDEntry
             // 
-            this.majorIDEntry.Location = new System.Drawing.Point(131, 56);
+            this.majorIDEntry.Location = new System.Drawing.Point(131, 66);
             this.majorIDEntry.Margin = new System.Windows.Forms.Padding(2);
             this.majorIDEntry.Name = "majorIDEntry";
             this.majorIDEntry.Size = new System.Drawing.Size(186, 22);
             this.majorIDEntry.TabIndex = 0;
             // 
+            // deleteStudentButton
+            // 
+            this.deleteStudentButton.Location = new System.Drawing.Point(321, 66);
+            this.deleteStudentButton.Margin = new System.Windows.Forms.Padding(2);
+            this.deleteStudentButton.Name = "deleteStudentButton";
+            this.deleteStudentButton.Size = new System.Drawing.Size(137, 37);
+            this.deleteStudentButton.TabIndex = 1;
+            this.deleteStudentButton.Text = "Delete Student";
+            this.deleteStudentButton.UseVisualStyleBackColor = true;
+            this.deleteStudentButton.Click += new System.EventHandler(this.deleteStudentButton_Click);
+            // 
+            // reloadButton
+            // 
+            this.reloadButton.Location = new System.Drawing.Point(925, 116);
+            this.reloadButton.Name = "reloadButton";
+            this.reloadButton.Size = new System.Drawing.Size(153, 49);
+            this.reloadButton.TabIndex = 14;
+            this.reloadButton.Text = "Reload Data";
+            this.reloadButton.UseVisualStyleBackColor = true;
+            this.reloadButton.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(479, 69);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(96, 17);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "College Name";
+            // 
+            // collegeNameEntry
+            // 
+            this.collegeNameEntry.Location = new System.Drawing.Point(579, 66);
+            this.collegeNameEntry.Margin = new System.Windows.Forms.Padding(2);
+            this.collegeNameEntry.Name = "collegeNameEntry";
+            this.collegeNameEntry.Size = new System.Drawing.Size(186, 22);
+            this.collegeNameEntry.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1238, 397);
+            this.ClientSize = new System.Drawing.Size(1149, 397);
+            this.Controls.Add(this.reloadButton);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.deleteMajorButton);
             this.Controls.Add(this.button2);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.addMajorButton);
+            this.Controls.Add(this.collegeNameEntry);
             this.Controls.Add(this.majorNameEntry);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.deleteStudentButton);
             this.Controls.Add(this.addStudentButton);
             this.Controls.Add(this.majorIDEntry);
             this.Controls.Add(this.studentNameEntry);
@@ -270,8 +317,8 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.registrationDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.majorBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.registrationDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.studentBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -304,6 +351,10 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn majorIDDataGridViewTextBoxColumn;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox majorIDEntry;
+        private System.Windows.Forms.Button deleteStudentButton;
+        private System.Windows.Forms.Button reloadButton;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox collegeNameEntry;
     }
 }
 

@@ -29,60 +29,23 @@ namespace CollegeRegistration
                 Name = studentNameEntry.Text,
                 //MajorID = int.Parse(majorIDEntry.Text)
                 MajorID = Convert.ToInt32(majorIDEntry.Text)
-        };
-            var MajorFilter = RegistrationEntities.Students.Where(f => f.Major.Id == (NewStudent.MajorID)).ToList();
-
-            if (MajorFilter.Count > 0)
-            {
-                RegistrationEntities.Students.Add(NewStudent);
-                RegistrationEntities.SaveChanges();
-            }
-
-            else
-            {
-                MessageBox.Show("Major does not exist.", "Error", MessageBoxButtons.OK);
-            }
-
-            //var selectedMajor = majorsList.SelectedItem as Major;
-            /*
-
-            if (selectedMajor != null)
-            {
-                Student newStudent = new Student
-                {
-                    Name = studentNameEntry.Text,
-                    Major = selectedMajor
-                };
-                RegistrationEntities.Students.Add(newStudent);
-                RegistrationEntities.SaveChanges();
-            }
-            */
-            updateStudentsList();
-
+            };
+            
+            RegistrationEntities.Students.Add(NewStudent);
+            RegistrationEntities.SaveChanges();
         }
 
-        private void updateStudentsList()
+        private void deleteStudentButton_Click(object sender, EventArgs e)
         {
-            /*
-            foreach (var student in RegistrationEntities.Students)
-            {
-                studentsList.Text += $"{student.Name} {student.Major.Name} {student.Major.College}";
-            }
-            */
-        }
+            Student DeleteRecord = new Student();
+            string DeleteName = studentNameEntry.Text;
 
-        private void updateMajorsList()
-        {
-            /*
-            foreach (var major in RegistrationEntities.Majors)
-            {
-                var temp = RegistrationEntities.Majors.ToList();
-                majorsList.DataSource = temp;
-                majorsList.DisplayMember = "ToStringy";
+            DeleteRecord = (from stud in RegistrationEntities.Students
+                            where stud.Name == DeleteName
+                            select stud).FirstOrDefault();
 
-                //majorsList.Text += $"{major.Name}";
-            }
-            */
+            RegistrationEntities.Students.Remove(DeleteRecord);
+            RegistrationEntities.SaveChanges();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -90,12 +53,11 @@ namespace CollegeRegistration
             Major newMajor = new Major
             {
                 Name = majorNameEntry.Text,
-                College = "CECS"
+                College = collegeNameEntry.Text
             };
 
             RegistrationEntities.Majors.Add(newMajor);
             RegistrationEntities.SaveChanges();
-            updateMajorsList();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -106,27 +68,16 @@ namespace CollegeRegistration
 
         private void button3_Click(object sender, EventArgs e)
         {
-            /*
-            var selectedMajor = majorsList.SelectedItem as Major;
-            if (selectedMajor != null)
-            {
-                if (selectedMajor.Students.Count > 0)
-                {
-                    MessageBox.Show("You can't delete a major that has students!");
-                }
-                else
-                {
-                    RegistrationEntities.Majors.Remove(selectedMajor);
-                    RegistrationEntities.SaveChanges();
-                }
+            Major DeleteRecord = new Major();
+            
+            string DeleteName = majorNameEntry.Text;
 
-            }
-            */
-        }
+            DeleteRecord = (from maj in RegistrationEntities.Majors
+                            where maj.Name == DeleteName
+                            select maj).FirstOrDefault();
 
-        private void reloadMajor_Click(object sender, EventArgs e)
-        {
-            updateMajorsList();
+            RegistrationEntities.Majors.Remove(DeleteRecord);
+            RegistrationEntities.SaveChanges();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -136,6 +87,16 @@ namespace CollegeRegistration
             // TODO: This line of code loads data into the 'registrationDataSet.Major' table. You can move, or remove it, as needed.
             this.majorTableAdapter.Fill(this.registrationDataSet.Major);
 
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            dataGridView2.DataSource = studentBindingSource;
+            dataGridView2.Update();
+            dataGridView2.Refresh();
+            dataGridView1.DataSource = majorBindingSource;
+            dataGridView1.Update();
+            dataGridView1.Refresh();
         }
     }
 }
